@@ -1,9 +1,12 @@
 $main:#093CB5
 $white:#fff
+$black:#000
 
 
 
 
+*
+    box-sizing: border-box
 
 body
     font-family: 'Inter', sans-serif
@@ -31,6 +34,7 @@ body
     &-icons
         display: flex
         gap: 18px
+        z-index: 999
         img
             width: 34px
             height: 34px
@@ -50,7 +54,68 @@ body
                 color: $white
                 margin-left: 10px
             
+.offer
+    &-wrap
+        display: flex
+        justify-content: space-between
+        
+    &-left
+        width: 40%
+    &-right
+        width: 60%
 
+    &-text
+    &-header
+        font-size: 128px
+        letter-spacing: -3px
+        color: $black
+        font-weight: 700
+        margin-bottom: 60px
+    &-desc
+        font-size: 22px
+        line-height: 30px
+        margin-bottom: 100px
+    &-buttons
+        display: flex  
+        a
+            padding: 30px 60px
+            font-size: 22px
+            border-radius: 100px
+            text-decoration: none
+            border: 3px solid $main
+            width: 300px
+            text-align: center
+            margin-right: 30px 
+            transition: all .2s
+            
+        a.btn-blue
+            background-color: $main
+            border: 3px solid $main
+            color: $white
+            &:hover
+                background-color: transparent
+                color: $main
+        a.btn-white
+            color: $main
+            border: 3px solid transparent
+            position: relative
+            &::before
+                content: ''
+                background-image: url('../img/02offer_icon_tel.svg')
+                position: absolute
+                top: 50%
+                left: 40px
+                transform: translateY(-50%)
+                display: block
+                width: 30px
+                height: 30px
+            &:hover
+                border: 3px solid $main
+    &-image
+        img
+            width: 100%
+            margin-top: -150px
+            
     
 
 

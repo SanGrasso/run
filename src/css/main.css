@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -48,6 +53,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 18px;
+  z-index: 999;
 }
 .header-icons img {
   width: 34px;
@@ -72,4 +78,81 @@ body {
   font-size: 30px;
   color: #fff;
   margin-left: 10px;
+}
+
+.offer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.offer-left {
+  width: 40%;
+}
+.offer-right {
+  width: 60%;
+}
+.offer-header {
+  font-size: 128px;
+  letter-spacing: -3px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.offer-desc {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+.offer-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.offer-buttons a {
+  padding: 30px 60px;
+  font-size: 22px;
+  border-radius: 100px;
+  text-decoration: none;
+  border: 3px solid #093CB5;
+  width: 300px;
+  text-align: center;
+  margin-right: 30px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.offer-buttons a.btn-blue {
+  background-color: #093CB5;
+  border: 3px solid #093CB5;
+  color: #fff;
+}
+.offer-buttons a.btn-blue:hover {
+  background-color: transparent;
+  color: #093CB5;
+}
+.offer-buttons a.btn-white {
+  color: #093CB5;
+  border: 3px solid transparent;
+  position: relative;
+}
+.offer-buttons a.btn-white::before {
+  content: "";
+  background-image: url("../img/02offer_icon_tel.svg");
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+.offer-buttons a.btn-white:hover {
+  border: 3px solid #093CB5;
+}
+.offer-image img {
+  width: 100%;
+  margin-top: -150px;
 }/*# sourceMappingURL=main.css.map */
