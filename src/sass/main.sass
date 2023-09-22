@@ -3,6 +3,7 @@ $white:#fff
 $black:#000
 $black2:rgba(0, 0, 0, 0.64)
 $grey:rgba(255, 255, 255, 0.45) 
+$grey2:rgba(0, 0, 0, 0.45) 
 $orange:#ff7474
 
 
@@ -278,8 +279,6 @@ body
             height: 33px
             cursor: pointer
             
-        
-
     &-slider
         // display: flex
         // justify-content: space-between
@@ -347,14 +346,82 @@ body
     &-image
         img
             margin-top: -30px
-
-
-.slick-arrow
-    
-    
-
+   
 .slick-slide
     margin: 0 15px 50px
 // the parent
 .slick-list   
     margin: 0 -15px
+
+
+.reviews
+    padding-bottom: 300px
+    &-block
+        display: flex
+    &-info
+        width: 35%
+        padding-right: 200px
+    &-header
+        font-size: 96px
+        font-weight: 700
+        line-height: 100px
+        letter-spacing: -1.92px
+        color: $black
+        margin-top: 110px
+        margin-bottom: 400px
+    &-model
+        font-size: 22px
+        line-height: 30px
+        color: rgba(0, 0, 0, 0.65)
+    &-desc
+        font-size: 36px
+        font-weight: 700
+        line-height: 40px
+        color: $black
+    
+    &-right
+       width: 65%
+    
+    
+    &-slider
+        
+    
+ 
+    &-item
+        // display: flex
+    &-wrap
+        display: flex
+    &-image
+        width: 100%
+    &-text
+        margin-top: 100px
+        padding-left: 85px
+        margin-bottom: 0px
+        p
+            font-size: 36px
+            font-weight: 700
+            line-height: 40px
+            color: $grey2
+            margin-top: 0
+            margin-bottom: 0
+            strong
+                color: $black
+        span
+            font-size: 22px
+            line-height: 30px
+            display: inline-block
+            margin-top: 373px
+    &-arrows
+        margin-top: 55px
+        display: flex
+        gap: 20px
+        > div
+            display: flex
+            align-items: center
+            justify-content: center
+            background: rgba(0,0,0,0.03 )
+            // padding: 10px
+            border-radius: 10px
+            width: 33px
+            height: 33px
+            cursor: pointer
