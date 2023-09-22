@@ -80,6 +80,9 @@ body {
   margin-left: 10px;
 }
 
+.offer {
+  padding-bottom: 250px;
+}
 .offer-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,5 +157,193 @@ body {
 }
 .offer-image img {
   width: 100%;
-  margin-top: -150px;
+  margin-top: -120px;
+  margin-left: 130px;
+}
+
+.why {
+  padding-bottom: 250px;
+}
+.why-header {
+  font-size: 96px;
+  letter-spacing: -2px;
+  margin-bottom: 150px;
+  color: #fff;
+}
+.why-wrap {
+  background-image: url("../img/04why-bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 100px;
+  border-radius: 100px;
+  background-position: center center;
+}
+.why-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.why-item {
+  margin-right: 80px;
+  width: 30%;
+}
+.why-item img {
+  display: block;
+  margin-bottom: 25px;
+}
+.why-item p {
+  color: #fff;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+}
+.why-item span {
+  color: rgba(255, 255, 255, 0.45);
+  display: block;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.scooters {
+  padding-bottom: 250px;
+}
+.scooters-headwrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 130px;
+}
+.scooters-header {
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: -2px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.scooters-arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+.scooters-arrows > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+}
+.scooters-item {
+  width: 48%;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 60px 60px 0;
+  background-color: #fbfbfb;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  -webkit-box-shadow: 0px 25px 15px rgba(155, 161, 167, 0.1997);
+          box-shadow: 0px 25px 15px rgba(155, 161, 167, 0.1997);
+  border-radius: 40px;
+}
+.scooters-left {
+  width: 45%;
+}
+.scooters-right {
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.scooters-text {
+  font-size: 36px;
+  line-height: 40px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.scooters-desc {
+  font-size: 22px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.64);
+  margin-bottom: 50px;
+}
+.scooters-btn {
+  background-color: #093CB5;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 30px;
+  width: 220px;
+  cursor: pointer;
+}
+.scooters-btn__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+.scooters-btn__label img {
+  margin-right: 10px;
+}
+.scooters-btn__label span {
+  font-size: 18px;
+  line-height: 26px;
+}
+.scooters-btn strong {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+.scooters-label {
+  position: absolute;
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+  padding: 16px;
+  background-color: #ff7474;
+  -webkit-box-shadow: 0px 100px 80px rgba(155, 161, 167, 0.07), 0px 41.7776px 33.4221px rgba(155, 161, 167, 0.0503198), 0px 22.3363px 17.869px rgba(155, 161, 167, 0.0417275), 0px 12.5216px 10.017px rgba(155, 161, 167, 0.0503198);
+          box-shadow: 0px 100px 80px rgba(155, 161, 167, 0.07), 0px 41.7776px 33.4221px rgba(155, 161, 167, 0.0503198), 0px 22.3363px 17.869px rgba(155, 161, 167, 0.0417275), 0px 12.5216px 10.017px rgba(155, 161, 167, 0.0503198);
+  border-radius: 20px;
+}
+.scooters-image img {
+  margin-top: -30px;
+}
+
+.slick-slide {
+  margin: 0 15px 50px;
+}
+
+.slick-list {
+  margin: 0 -15px;
 }/*# sourceMappingURL=main.css.map */

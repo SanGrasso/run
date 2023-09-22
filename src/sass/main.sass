@@ -1,6 +1,9 @@
 $main:#093CB5
 $white:#fff
 $black:#000
+$black2:rgba(0, 0, 0, 0.64)
+$grey:rgba(255, 255, 255, 0.45) 
+$orange:#ff7474
 
 
 
@@ -55,6 +58,7 @@ body
                 margin-left: 10px
             
 .offer
+    padding-bottom: 250px
     &-wrap
         display: flex
         justify-content: space-between
@@ -63,8 +67,7 @@ body
         width: 40%
     &-right
         width: 60%
-
-    &-text
+    // &-text
     &-header
         font-size: 128px
         letter-spacing: -3px
@@ -112,11 +115,246 @@ body
             &:hover
                 border: 3px solid $main
     &-image
+        
         img
             width: 100%
-            margin-top: -150px
+            margin-top: -120px
+            margin-left: 130px
+.why 
+    padding-bottom: 250px
+    &-header
+        font-size: 96px
+        letter-spacing: -2px
+        // line-height: 100px
+        margin-bottom: 150px
+        color: $white
+    &-wrap
+        background-image: url('../img/04why-bg2.png') 
+        background-repeat: no-repeat
+        background-size: cover
+        padding: 80px 100px
+        border-radius: 100px
+        background-position: center center
+    
+    &-items
+        display: flex
+        justify-content: space-between
+        
+    &-item
+        margin-right: 80px
+        width: 30%
+        
+        img
+            display: block
+            margin-bottom: 25px
+        p
+           color: $white 
+           font-size: 36px
+           line-height: 40px
+           font-weight: 700
+        span
+           color: $grey
+           display: block
+           font-size: 36px
+           line-height: 40px
+           font-weight: 300
+
+// .scooters
+//     padding-bottom: 250px
+//     &-header
+//         font-size: 96px
+//         line-height: 100px
+//         letter-spacing: -2px
+//         margin-bottom: 130px
+//         font-weight: 700
+//     &-slider
+//         display: flex
+//         justify-content: space-between
+        
+//     &-item
+//         display: flex
+//         justify-content: space-between
+//         width: 48%
+//         border-radius: 25px
+//         border: 1px solid rgba(242, 236, 236, 0.612)
+//         box-shadow: 10px 20px 50px #E5E5E5
+//     &-left
+//         width: 50%
+//         display: flex
+//         flex-direction: column
+//         padding: 64px 20px 64px 64px
+//     &-right
+//         width: 50%
+//         position: relative
+//     &-text
+//         font-size: 36px
+//         font-weight: 700
+//         line-height: 40px
+//         margin-bottom: 32px
+//         margin-top: 0
+//         max-width: 355px
+//     &-desc
+//         font-size: 22px
+//         line-height: 30px
+//         margin-bottom: 56px
+//         color: $black2
+//     &-btn
+//         display: flex
+//         justify-content: center
+//         align-items: center
+//         flex-direction: column
+//         max-width: 224px
+//         width: 100%
+//         height: 120px
+//         background-color:$main 
+//         // padding: 100px 200px
+//         border-radius: 28px
+//         padding: 25px
+//         &__label
+//             display: flex
+//             // justify-content: flex-start
+//             align-items: flex-start
+//             margin-right: auto
+//             // justify-self: start
+//             img
+//                 display: inline-block
+//                 margin-right: 8px
+
+//             span
+//                 display: inline-block
+//                 font-size: 18px
+//                 line-height: 26px
+//                 color: $white
+//                 margin-bottom: 10px       
+//         strong
+//             display: inline-block
+//             font-size: 36px
+//             font-weight: 700
+//             line-height: 40px
+//             text-align: center
+//             color: $white 
+//     &-image
+//         width: 100%
+//     &-label   
+//         font-size: 22px
+//         font-weight: 700
+//         color: $white
+//         padding: 20px 16px 
+//         background-color:#FF7474
+//         border-radius: 20px
+//         display: inline-block
+//         position: absolute
+//         top: 50px
+//         right: 50px
+
+.scooters
+    padding-bottom: 250px
+    &-headwrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 130px
+        // > div 
+        //     background: rgba(0,0,0,0.03 )
+    &-header
+        font-size: 96px
+        line-height: 100px
+        letter-spacing: -2px
+        font-weight: 700
+        margin-bottom: 0
+        margin-top: 0
+    &-arrows
+        display: flex
+        gap: 20px
+        
+        > div
+            display: flex
+            align-items: center
+            justify-content: center
+            background: rgba(0,0,0,0.03 )
+            // padding: 10px
+            border-radius: 10px
+            width: 33px
+            height: 33px
+            cursor: pointer
             
+        
+
+    &-slider
+        // display: flex
+        // justify-content: space-between
+    &-item
+        width: 48%
+        display: flex !important
+        justify-content: space-between
+        padding: 60px 60px 0
+        background-color: #fbfbfb
+        border: 1px solid rgba(0, 0, 0,0.03)
+        box-shadow: 0px 25px 15px rgba(155,161,167,0.1997 )
+        border-radius: 40px
+    &-left
+        width: 45%
+    &-right
+        width: 55%
+        display: flex
+        justify-content: flex-end
+    &-text
+        font-size: 36px
+        line-height: 40px
+        color: $black
+        font-weight: 700
+        margin-bottom: 30px
+        margin-top: 0
+    &-desc
+        font-size: 22px
+        line-height: 40px
+        color: $black2
+        margin-bottom: 50px
+    &-btn
+        background-color: $main
+        color: $white
+        padding: 20px
+        display: inline-block
+        border-radius: 30px
+        width: 220px
+        cursor: pointer
+        &__label
+            display: flex
+            align-items: center
+            margin-bottom: 15px
+            img
+                margin-right: 10px
+            span
+                font-size: 18px
+                line-height: 26px
+        strong
+            font-weight: 700
+            font-size: 36px
+            line-height: 40px
+            
+                
+    &-label
+        position: absolute
+        color: $white
+        font-size: 22px
+        line-height: 30px
+        font-weight: 700
+        padding: 16px
+        background-color: $orange 
+        box-shadow: 0px 100px 80px rgba(155, 161, 167, 0.07),0px 41.7776px 33.4221px rgba(155, 161, 167, 0.0503198),0px 22.3363px 17.869px rgba(155, 161, 167, 0.0417275),0px 12.5216px 10.017px rgba(155, 161, 167, 0.0503198)
+        border-radius: 20px
+
+    &-image
+        img
+            margin-top: -30px
+
+
+.slick-arrow
+    
     
 
-
-
+.slick-slide
+    margin: 0 15px 50px
+// the parent
+.slick-list   
+    margin: 0 -15px
