@@ -11,6 +11,8 @@ $orange:#ff7474
 
 *
     box-sizing: border-box
+    margin: 0
+    padding: 0
 
 body
     font-family: 'Inter', sans-serif
@@ -425,3 +427,70 @@ body
             width: 33px
             height: 33px
             cursor: pointer
+
+
+.footer
+    padding: 84px 230px 90px 96px
+    background: #F6F6F6
+    &-wraps
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+    &-copy
+        display: flex
+        flex-direction: column
+        margin-right: 300px
+    &-logo
+        margin-bottom: 175px
+
+    &-mini
+        font-size: 22px
+        line-height: 30px
+        color: rgba(0, 0, 0, 0.35)
+        
+    &-pages
+        a:last-child
+            color: rgba(0, 0, 0, 0.35)
+            margin-top: 56px
+            margin-bottom: 0
+        // display: flex
+        // flex-direction: column
+        font-size: 22px 
+        font-weight: 400
+        margin-right: 100px 
+        
+        
+        h4
+            font-weight: 700
+            color: $black
+            margin-top: 0
+            margin-bottom: 32px
+        a
+            color: rgba(0, 0, 0, 0.65)
+            text-decoration: none
+            margin-bottom: 14px
+            display: block
+    &-media
+        display: flex
+        flex-direction: column
+        margin-left: 150px
+    &-email
+        font-size: 22px 
+        font-weight: 700
+        line-height: 30px
+        margin-bottom: 26px
+        a
+            text-decoration: none
+            color: $black
+    &-socials
+        
+        display: flex
+        justify-content: flex-start
+        align-items: flex-start
+        img
+            margin-right: 24px
+            width: 24px
+            height: 24px
+        
+
+    
